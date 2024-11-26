@@ -1,0 +1,173 @@
+[
+  {
+    "name": "C1 Staff Oct 2024-25",
+    "collection_window": "Collection 1 - October",
+    "school_year": "2024-25",
+    "description": "Professional Personnel and Support Personnel",
+    "detailed_description": "Annual collection of staff information including professional qualifications, assignments, demographics, and employment status. Used for federal reporting, certification compliance, and staffing analysis.",
+    "comments": "Required for all public schools and LEAs",
+    "collection_type": "Staff Information",
+    "how_to_doc_path": "docs/how-to-guides/october-staff-dataset/intro",
+    "templates": [
+      {
+        "template": {
+          "full_name": "Staff",
+          "base_name": "Staff",
+          "doc_path": "docs/templates/staff/staff"
+        },
+        "status": "Required",
+        "requirement_description": "Core staff demographic and employment data"
+      },
+      {
+        "template": {
+          "full_name": "Staff Snapshot",
+          "base_name": "Staff Snapshot",
+          "doc_path": "docs/templates/staff/staff-snapshot"
+        },
+        "status": "Required",
+        "requirement_description": "Point-in-time staff status information"
+      }
+    ],
+    "collection_opens": "2024-11-01",
+    "collection_closes": "2024-12-15",
+    "pde_review_window": "N/A",
+    "correction_window": "2024-12-16 to 2024-12-30",
+    "acs_information": "Due 2024-12-15",
+    "final_collection_closes": "2024-12-30"
+  },
+  {
+    "name": "C2 SPEC ED Dec 2024-25",
+    "collection_window": "Collection 2 - December",
+    "school_year": "2024-25",
+    "description": "Special Education December 1 Count",
+    "detailed_description": "Federally mandated collection of special education student data, including disability categories, educational placement, and services received. Used for IDEA compliance monitoring and federal reporting.",
+    "comments": "District of Residence and Charter Schools submit for all special education students being educated at district or off site",
+    "collection_type": "Special Education 12/1 Count",
+    "how_to_doc_path": null,
+    "templates": [
+      {
+        "template": {
+          "full_name": "Special Education Snapshot",
+          "base_name": "Special Education Snapshot",
+          "doc_path": "docs/templates/special-ed/special-education-snapshot"
+        },
+        "status": "Required",
+        "requirement_description": "Point-in-time special education status and services"
+      }
+    ],
+    "collection_opens": "2024-12-02",
+    "collection_closes": "2024-12-20",
+    "pde_review_window": "2024-12-21 to 2025-01-05",
+    "correction_window": "2025-01-06 to 2025-01-24",
+    "acs_information": "N/A",
+    "final_collection_closes": "2025-01-24"
+  },
+  {
+    "name": "C1 OCT Student 2024-25",
+    "collection_window": "Collection 1 - October",
+    "school_year": "2024-25",
+    "description": "October Student Collection",
+    "detailed_description": "Comprehensive student data collection including enrollment, demographics, program participation, and special population status. Used for federal reporting requirements, state funding calculations, and program compliance monitoring.",
+    "comments": "Required for all public schools and LEAs",
+    "collection_type": "Student and Programs",
+    "how_to_doc_path": null,
+    "templates": [
+      {
+        "template": {
+          "full_name": "Student",
+          "base_name": "Student",
+          "doc_path": "docs/templates/student"
+        },
+        "status": "Required",
+        "requirement_description": "Core student demographic and enrollment data"
+      }
+    ],
+    "collection_opens": "2024-10-01",
+    "collection_closes": "2024-11-15",
+    "pde_review_window": "N/A",
+    "correction_window": "2024-11-16 to 2024-11-30",
+    "acs_information": "Due 2024-12-15",
+    "final_collection_closes": "2024-11-30"
+  },
+  {
+    "name": "Professional Staff Vacancy Nov 2024-25",
+    "collection_window": "November",
+    "school_year": "2024-25",
+    "description": "Professional Staff Vacancy",
+    "detailed_description": "Monthly collection of professional staff vacancies to track staffing needs and shortages across educational positions.",
+    "comments": "Required for all LEAs that report C1 Staff",
+    "collection_type": "Professional Staff Vacancy",
+    "how_to_doc_path": null,
+    "templates": [
+      {
+        "template": {
+          "full_name": "District Fact",
+          "base_name": "District Fact",
+          "doc_path": "docs/templates/district/district-fact"
+        },
+        "status": "Required",
+        "requirement_description": "Required for all LEAs"
+      }
+    ],
+    "collection_opens": "2024-11-20",
+    "collection_closes": "2024-11-27",
+    "pde_review_window": "N/A",
+    "correction_window": "Until the Day the Collection Closes",
+    "acs_information": "N/A",
+    "final_collection_closes": "2024-11-27"
+  },
+  {
+    "name": "Safe Schools 2024-25",
+    "collection_window": "Safe Schools",
+    "school_year": "2024-25",
+    "description": "School Safety and Incident Reporting",
+    "detailed_description": "Comprehensive collection of school safety data including incidents, disciplinary actions, weapons, and security measures. Used for federal reporting and monitoring school safety compliance.",
+    "comments": "Required for all public schools. ACS submitted through the FRCPP",
+    "collection_type": "Safe Schools",
+    "how_to_doc_path": null,
+    "templates": [
+      {
+        "template": {
+          "full_name": "Incident",
+          "base_name": "Incident",
+          "doc_path": "docs/templates/safe-schools/incident"
+        },
+        "status": "Required",
+        "requirement_description": "Details of safety incidents and violations"
+      }
+    ],
+    "collection_opens": "2024-11-15",
+    "collection_closes": "2024-12-31",
+    "pde_review_window": "N/A",
+    "correction_window": "Until the Day the Collection Closes",
+    "acs_information": "Due 2024-12-31",
+    "final_collection_closes": "2024-12-31"
+  },
+  {
+    "name": "Course/Instructor 2024-25",
+    "collection_window": "Course/Instructor",
+    "school_year": "2024-25",
+    "description": "Course and Instructor Information",
+    "detailed_description": "Collection of course offerings, instructor assignments, and student course enrollment data. Used for program analysis, teacher certification compliance, and academic planning.",
+    "comments": "Required for all public schools and LEAs",
+    "collection_type": "Course/Instructor",
+    "how_to_doc_path": null,
+    "templates": [
+      {
+        "template": {
+          "full_name": "Course",
+          "base_name": "Course",
+          "doc_path": "docs/templates/course/course"
+        },
+        "status": "Required",
+        "requirement_description": "Course offering and attributes"
+      }
+    ],
+    "collection_opens": "2024-11-01",
+    "collection_closes": "2024-11-22",
+    "pde_review_window": "N/A",
+    "correction_window": "2024-11-23 to 2024-12-06",
+    "acs_information": "Due 2024-12-13",
+    "final_collection_closes": "2024-12-06"
+  }
+]
